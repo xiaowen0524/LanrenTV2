@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+
+    card:cardCornerRadius="10dp"
+    card:cardElevation="10dp"
+    card:cardMaxElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/columnimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_weight="3"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/columnntop"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorText"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/columnimage"
+            android:padding="10dp"
+            android:text="nihao" />
+
+
+        <TextView
+            android:id="@+id/columnbottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/columnimage"
+            android:gravity="right"
+            android:padding="10dp"
+            android:text="nihaoma"
+            android:textColor="@color/colorText"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

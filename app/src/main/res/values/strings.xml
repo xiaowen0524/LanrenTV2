@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LanrenTV2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">主题模式</string>
+    <string name="day_settings">日间模式</string>
+    <string name="night_settings">夜间模式</string>
+    <string name="fabumokuai">发布模块</string>
+    <string name="quanmintv">全民TV</string>
+    <string name="shezhi">设置</string>
+    <string name="guanyu">关于</string>
+    <string name="xuanxiang">选项</string>
+    <string name="title_activity_base">BaseActivity</string>
+</resources>
